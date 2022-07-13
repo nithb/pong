@@ -9,7 +9,7 @@ background :: Color
 background = white
 
 drawing :: Picture
-drawing = circle 80
+drawing = circle 50
 
 main :: IO ()
 main = display window background drawing
